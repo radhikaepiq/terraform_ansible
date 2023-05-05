@@ -1,6 +1,6 @@
 # EC2 instance
 module "ec2_instance" {
-  source ="git::https://github.com/tejasacharekar1/ec2_modules.git"
+  source ="git::https://github.com/tejasacharekar1/ec2_modules.git//modules/ec2"
   region = var.region
   ami = var.ami
   instance_type = var.instance_type
